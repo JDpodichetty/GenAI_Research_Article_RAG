@@ -1,0 +1,9 @@
+openai==1.30.1           # Used to call GPT-4 for extracting biomarker data from text
+anthropic==0.24.0        # Optional: Claude API access for comparison with OpenAI
+pymongo==4.7.2           # Store extracted data as documents in MongoDB
+python-dotenv==1.0.1     # Load API keys and DB config from .env file
+pdfplumber==0.10.3       # Parse text, tables, and layout from PDFs
+PyMuPDF==1.23.21         # Alternative/fallback PDF parser for fine-grained control
+langchain==0.2.1         # Orchestrate LLM prompts, tools, and memory across pipeline
+tqdm==4.66.4             # Progress bars for batch PDF or API processing
+pandas       # Data manipulation and table formatting
