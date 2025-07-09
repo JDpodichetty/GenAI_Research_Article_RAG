@@ -25,6 +25,7 @@ def insert_article(data: dict):
 
 def get_all_articles():
     """
-    Fetch all documents in the collection as a list of dictionaries.
+    Fetch all documents in the collection as a list of dictionaries
     """
     return list(collection.find())
+
